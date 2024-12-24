@@ -1,0 +1,65 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+}
+
+.logo {
+    width: 100px; /* Adjust as needed */
+}
+
+.search-section {
+    padding: 20px;
+}
+
+.info-section {
+    padding: 20px;
+}
+
+button {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#suggestions {
+ border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-y: auto;
+    position: absolute;
+    background-color: white;
+    z-index: 1000;
+}
+
+#suggestions div {
+    padding: 10px;
+    cursor: pointer;
+}
+
+#suggestions div:hover {
+    background-color: #f1f1f1;
+}
+.placement{
+    color: black;
+    /* text-decoration: brown underline; */
+}
+.hub{
+     color: red;
+}
